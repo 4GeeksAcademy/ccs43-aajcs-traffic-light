@@ -73,14 +73,14 @@ const Home = () => {
         </div>
         <button
           type="button"
-          class="btn btn-secondary btn-lg"
+          className="btn btn-secondary btn-lg"
           onClick={() => setCondicion(!condicion)}
         >
           {!condicion ? "Automatico" : "Manual"}
         </button>
         <button
           type="button"
-          class="btn btn-secondary btn-lg"
+          className="btn btn-secondary btn-lg"
           onClick={() => setCondicionColor(!condicionColor)}
         >
           {!condicionColor ? "color extra" : "quitar color"}
